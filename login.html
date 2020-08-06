@@ -9,8 +9,8 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
-    <link rel="stylesheet" href="../src/css/reset.css">
-    <link rel="stylesheet" href="../src/css/login.css">
+    <link rel="stylesheet" href="../Hasee/css/reset.css">
+    <link rel="stylesheet" href="../Hasee/css/login.css">
     <!-- <link rel="stylesheet" href="../src/css/index1.css"> -->
 </head>
 
@@ -30,13 +30,13 @@
         <div class="login_content_in">
             <div class="login_case">
                 <h2>神舟会员</h2>
-                <p class="username"><input type="text" placeholder="输入你的手机号或者邮箱"></p>
-                <p class="password"><input type="password"></p>
+                <p class="username"><input type="text" placeholder="输入你的手机号或者邮箱"  id="username"></p>
+                <p class="password"><input type="password" id="password"></p>
                 <div class="login_checkbox">
                     <input id="chkAutoLogin" type="checkbox" name="chkAutoLogin">
                     <label for="chkAutoLogin">自动登录</label>
                 </div>
-                <input type="text" value="登录" class="login_btn">
+                <input type="button" value="登录" class="login_btn">
                 <p class="login_p"><a href="javascript:;">
                         忘记密码?>>
                     </a>
@@ -116,5 +116,6 @@
         </div>
     </div>
 </body>
-
+<script src="./script/jquery.js"></script>
+<script src="./script/login.js"></script>
 </html>
